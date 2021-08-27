@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="pimouse_ros" name="motors" type="motors.py" required="true" />
+  <test test-name="test_keyboard_run" pkg="pimouse_keyboard_run" type="keyboard_input1.py" />
+</launch>

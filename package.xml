@@ -4,23 +4,19 @@
   <version>0.0.0</version>
   <description>The pimouse_keyboard_run package</description>
   <maintainer email="efmgh2511@outlook.jp">ubuntu</maintainer>
-  <url type="website">https://github.com/Yuto2511<url>
   <license>BSD</license>
+  <url type="website">https://github.com/Yuto2511</url>
 
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>cv_bridge</build_depend>
-  <build_depend>pimouse_ros</build_depend>
-
+  <build_depend>message_genetration</build_depend>
   <build_export_depend>rospy</build_export_depend>
-  <build_export_depend>std_msgs</build_export_depend>
-
   <exec_depend>rospy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>cv_bridge</exec_depend>
   <exec_depend>pimouse_ros</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
 
   <export>
 
