@@ -10,6 +10,7 @@ project(pimouse_keyboard_run)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
+  std_srvs
   message_generation
 )
 
@@ -50,13 +51,12 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   key_val.msg
+  String.msg
 )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
 #   FILES
-#   Service1.srv
-#   Service2.srv
 # )
 
 ## Generate actions in the 'action' folder

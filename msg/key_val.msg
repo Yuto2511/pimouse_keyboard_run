@@ -1,1 +1,1 @@
-int32 key
+string key

@@ -1,4 +1,0 @@
-<launch>
-  <test test-name="test_keyboard_pub" pkg="pimouse_keyboard_run" type="keyboard_input1.py" />
-  <test test-name="test_keyboard_lis" pkg="pimouse_keyboard_run" type="keyboard_read1.py" />
-</launch>
