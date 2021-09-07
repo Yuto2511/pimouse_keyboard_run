@@ -1,0 +1,4 @@
+<launch> 
+  <node pkg="pimouse_ros" name="motors" type="motors.py" required="true" />
+  <node pkg="pimouse_keyboard_run" name="read_run" type="read_run.py" required="true" />
+</launch>
